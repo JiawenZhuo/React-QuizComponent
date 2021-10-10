@@ -5,7 +5,9 @@ let quizData = required("./quiz_data.json");
 
 
 class Quiz extends Component{
-
+  constructor(props){
+    super(props);
+  }
   render(){
     return(
       <div>text</div>
