@@ -6,11 +6,11 @@ class QuizQuestion extends Component{
         return(
             <main>
             <section>
-              <p>// instruction text goes here</p>
+              <p>{this.props}</p>
             </section>
             <section className="buttons">
               <ul>
-                  <li>{this.props.QuizQuestion.answer_options[0]}</li>
+                  <li>{this.props.quiz_Question.answer_options[0]}</li>
               </ul>
             </section>
           </main>
