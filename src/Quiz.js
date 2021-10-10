@@ -1,7 +1,7 @@
-import react, {Component} from "react";
+import React, {Component} from "react"
 
 
-let quizData = required("./quiz_data.json");
+let quizData = require("./quiz_data.json");
 
 
 class Quiz extends Component{
@@ -13,7 +13,7 @@ class Quiz extends Component{
   render(){
     return(
       <div>
-        <div className="QuizQuestion">
+        <div className="QuizQuestion">{quizData.quiz_quiestions[0].instruction_text}
         </div>
       </div>
     );
