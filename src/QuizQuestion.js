@@ -11,7 +11,6 @@ class QuizQuestion extends Component{
             <section className="buttons">
               <ul>
                   <li>{this.props.QuizQuestion.answer_options[0]}</li>
-                //quiz question button logic goes here
               </ul>
             </section>
           </main>
