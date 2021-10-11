@@ -4,7 +4,9 @@ import QuizEnd from "./QuizEnd";
 
 let quizData = require("./quiz_data.json");
 
-
+/**
+ * comment
+ */
 class Quiz extends Component{
   constructor(props){
     super(props);
